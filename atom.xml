@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wumi.win/"/>
+  <link href="http://wumiblog.top/"/>
   <updated>2018-03-10T12:58:15.460Z</updated>
-  <id>http://wumi.win/</id>
+  <id>http://wumiblog.top/</id>
   
   <author>
     <name>xiaoxue</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>爱的艺术摘录</title>
-    <link href="http://wumi.win/2018/03/10/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF%E6%91%98%E5%BD%95/"/>
-    <id>http://wumi.win/2018/03/10/爱的艺术摘录/</id>
+    <link href="http://wumiblog.top/2018/03/10/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF%E6%91%98%E5%BD%95/"/>
+    <id>http://wumiblog.top/2018/03/10/爱的艺术摘录/</id>
     <published>2018-03-10T09:55:19.000Z</published>
     <updated>2018-03-10T12:58:15.460Z</updated>
     
@@ -31,15 +31,15 @@
     
     </summary>
     
-      <category term="读书笔记" scheme="http://wumi.win/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://wumiblog.top/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
   
   <entry>
     <title>诗说</title>
-    <link href="http://wumi.win/2018/03/06/%E8%AF%97%E8%AF%B4/"/>
-    <id>http://wumi.win/2018/03/06/诗说/</id>
+    <link href="http://wumiblog.top/2018/03/06/%E8%AF%97%E8%AF%B4/"/>
+    <id>http://wumiblog.top/2018/03/06/诗说/</id>
     <published>2018-03-06T14:37:43.000Z</published>
     <updated>2018-03-10T16:37:26.599Z</updated>
     
@@ -55,7 +55,7 @@
     
     </summary>
     
-      <category term="子安集" scheme="http://wumi.win/categories/%E5%AD%90%E5%AE%89%E9%9B%86/"/>
+      <category term="子安集" scheme="http://wumiblog.top/categories/%E5%AD%90%E5%AE%89%E9%9B%86/"/>
     
     
   </entry>
