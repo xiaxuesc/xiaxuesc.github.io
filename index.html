@@ -53,13 +53,13 @@
 <link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon .ico?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon .ico?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon .ico?v=5.1.4">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
@@ -716,7 +716,19 @@
       
 
     </div>
-  </aside>
+<!--网易云音乐外嵌iframe-->
+<div>
+	<iframe id="iframer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src=""></iframe>
+</div>
+
+<script language='javascript' type='text/javascript'>
+	window.onload = function(){
+		setTimeout(function () {
+			var iframer = document.getElementById("iframer");
+			iframer.setAttribute("src","//music.163.com/outchain/player?type=2&id=29401158&auto=1&height=66");
+		}, 1000);
+	}
+</script>
 
 
         
@@ -743,7 +755,7 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+ <!-- <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -757,6 +769,7 @@
 <span>   |   </span>
 <span id="showDays"></span>
 </div>
+-->
 
 
 
