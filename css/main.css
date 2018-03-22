@@ -1896,7 +1896,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9985a7;
+  background: #baffc1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3236,9 +3236,11 @@ h2.love {
   color: #ff71a8;
   -webkit-text-fill-color: unset;
 }
-#days {
-  display: inline;
-  color: #008000;
+.use-motion .logo-line-before i {
+  left: 0;
+}
+.use-motion .logo-line-after i {
+  right: 0;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
