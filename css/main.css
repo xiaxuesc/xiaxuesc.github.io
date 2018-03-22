@@ -1896,7 +1896,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c26a17;
+  background: #9985a7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3052,6 +3052,17 @@ pre {
 .sidebar-nav .sidebar-nav-active:hover {
   color: #07b39b;
 }
+.site-description {
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 13px;
+  color: #f37055;
+}
+.site-author-name {
+  color: #aaff20;
+}
 .site-author-image {
   border: 2px solid #fff;
   border-radius: 100%;
@@ -3071,9 +3082,53 @@ img:hover {
   -o-transform: initial;
   transform: initial;
 }
+#days {
+  display: block;
+  color: #07b39b;
+  font-size: 13px;
+  margin-top: 15px;
+}
 .feed-link {
   margin-top: 15px;
   margin-left: 7px;
+}
+.feed-link a {
+  color: #aaa;
+  border: 1px solid #aaa;
+}
+.feed-link a i {
+  font-size: 14px;
+  color: #aaa;
+}
+.feed-link a:hover {
+  color: #fff;
+  background: #a166ab;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #a166ab;
+}
+.site-state-item {
+  padding: 0 15px;
+  border-left: 1.5px solid #a166ab;
+  border-left-width: 1.5px;
+  border-left-style: solid;
+  border-left-color: #a166ab;
+}
+.post-toc ol a {
+  color: #07b39b;
+}
+.post-toc .nav .active-current > a {
+  color: #a166ab;
+}
+.post-toc .nav .active > a {
+  color: #a166ab;
 }
 .posts-expand .post-eof {
   margin: 0px;
@@ -3180,6 +3235,10 @@ h2.love {
   border-left: none;
   color: #ff71a8;
   -webkit-text-fill-color: unset;
+}
+#days {
+  display: inline;
+  color: #008000;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
